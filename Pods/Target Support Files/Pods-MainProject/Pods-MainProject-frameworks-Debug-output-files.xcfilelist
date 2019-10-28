@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HomeModule.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HomeModule_Category.framework

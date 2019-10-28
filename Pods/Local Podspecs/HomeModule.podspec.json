@@ -1,0 +1,22 @@
+{
+  "name": "HomeModule",
+  "version": "0.1.0",
+  "summary": "A short description of HomeModule.",
+  "description": "首页模块",
+  "homepage": "https://github.com/WuTengWei/HomeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wutengwei": "wutengwei@rocedar.com"
+  },
+  "source": {
+    "git": "https://github.com/WuTengWei/HomeModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HomeModule/Classes/**/*"
+}

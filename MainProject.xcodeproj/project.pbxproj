@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ABDC7C77847E5EAD6193DA5 /* Pods_MainProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EDFB48E42838A763F9884E /* Pods_MainProject.framework */; };
 		2C46DC0C2366D11100559798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C46DC0B2366D11100559798 /* AppDelegate.m */; };
-		2C46DC0F2366D11100559798 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C46DC0E2366D11100559798 /* SceneDelegate.m */; };
 		2C46DC122366D11100559798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C46DC112366D11100559798 /* ViewController.m */; };
-		2C46DC152366D11100559798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C46DC132366D11100559798 /* Main.storyboard */; };
 		2C46DC172366D11200559798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C46DC162366D11200559798 /* Assets.xcassets */; };
 		2C46DC1A2366D11200559798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C46DC182366D11200559798 /* LaunchScreen.storyboard */; };
 		2C46DC1D2366D11200559798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C46DC1C2366D11200559798 /* main.m */; };
+		2C46DC2B2366D7AB00559798 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C46DC2A2366D7AB00559798 /* MineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04EDFB48E42838A763F9884E /* Pods_MainProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MainProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C46DC072366D11100559798 /* MainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C46DC0A2366D11100559798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C46DC0B2366D11100559798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C46DC0D2366D11100559798 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2C46DC0E2366D11100559798 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2C46DC102366D11100559798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2C46DC112366D11100559798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2C46DC142366D11100559798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C46DC162366D11200559798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C46DC192366D11200559798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C46DC1B2366D11200559798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C46DC1C2366D11200559798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C46DC292366D7AB00559798 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		2C46DC2A2366D7AB00559798 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		86F49A64BA353FD62C555EFA /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject.release.xcconfig"; path = "Target Support Files/Pods-MainProject/Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
+		94976BE353396F6F53894E85 /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject.debug.xcconfig"; path = "Target Support Files/Pods-MainProject/Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ABDC7C77847E5EAD6193DA5 /* Pods_MainProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,8 @@
 			children = (
 				2C46DC092366D11100559798 /* MainProject */,
 				2C46DC082366D11100559798 /* Products */,
+				E88344EA7BDEF9E44FBCD693 /* Pods */,
+				A0D28883BED4DEFEC291A4EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,17 +68,33 @@
 			children = (
 				2C46DC0A2366D11100559798 /* AppDelegate.h */,
 				2C46DC0B2366D11100559798 /* AppDelegate.m */,
-				2C46DC0D2366D11100559798 /* SceneDelegate.h */,
-				2C46DC0E2366D11100559798 /* SceneDelegate.m */,
 				2C46DC102366D11100559798 /* ViewController.h */,
 				2C46DC112366D11100559798 /* ViewController.m */,
-				2C46DC132366D11100559798 /* Main.storyboard */,
+				2C46DC292366D7AB00559798 /* MineViewController.h */,
+				2C46DC2A2366D7AB00559798 /* MineViewController.m */,
 				2C46DC162366D11200559798 /* Assets.xcassets */,
 				2C46DC182366D11200559798 /* LaunchScreen.storyboard */,
 				2C46DC1B2366D11200559798 /* Info.plist */,
 				2C46DC1C2366D11200559798 /* main.m */,
 			);
 			path = MainProject;
+			sourceTree = "<group>";
+		};
+		A0D28883BED4DEFEC291A4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EDFB48E42838A763F9884E /* Pods_MainProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E88344EA7BDEF9E44FBCD693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94976BE353396F6F53894E85 /* Pods-MainProject.debug.xcconfig */,
+				86F49A64BA353FD62C555EFA /* Pods-MainProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C46DC202366D11200559798 /* Build configuration list for PBXNativeTarget "MainProject" */;
 			buildPhases = (
+				DD5292614357E9216CA3CC45 /* [CP] Check Pods Manifest.lock */,
 				2C46DC032366D11100559798 /* Sources */,
 				2C46DC042366D11100559798 /* Frameworks */,
 				2C46DC052366D11100559798 /* Resources */,
+				47495AF9816B029A5FDBB107 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,11 +158,52 @@
 			files = (
 				2C46DC1A2366D11200559798 /* LaunchScreen.storyboard in Resources */,
 				2C46DC172366D11200559798 /* Assets.xcassets in Resources */,
-				2C46DC152366D11100559798 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47495AF9816B029A5FDBB107 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5292614357E9216CA3CC45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MainProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C46DC032366D11100559798 /* Sources */ = {
@@ -148,22 +212,14 @@
 			files = (
 				2C46DC122366D11100559798 /* ViewController.m in Sources */,
 				2C46DC0C2366D11100559798 /* AppDelegate.m in Sources */,
+				2C46DC2B2366D7AB00559798 /* MineViewController.m in Sources */,
 				2C46DC1D2366D11200559798 /* main.m in Sources */,
-				2C46DC0F2366D11100559798 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C46DC132366D11100559798 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C46DC142366D11100559798 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C46DC182366D11200559798 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +343,7 @@
 		};
 		2C46DC212366D11200559798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94976BE353396F6F53894E85 /* Pods-MainProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +361,7 @@
 		};
 		2C46DC222366D11200559798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F49A64BA353FD62C555EFA /* Pods-MainProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
