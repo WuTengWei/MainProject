@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HomeModule/Classes/**/*"
+  "source_files": "HomeModule/Classes/**/*",
+  "resource_bundles": {
+    "HomeModule": [
+      "HomeModule/Assets/*.png"
+    ]
+  }
 }

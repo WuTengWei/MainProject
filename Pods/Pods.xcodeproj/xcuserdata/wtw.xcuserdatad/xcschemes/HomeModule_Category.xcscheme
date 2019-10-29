@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EE1991E182D54C4BEA272D4FEE4D1E70"
-               BuildableName = "HomeModule_Category.framework"
+               BuildableName = "libHomeModule_Category.a"
                BlueprintName = "HomeModule_Category"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

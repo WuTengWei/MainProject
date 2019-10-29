@@ -24,9 +24,15 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     
-    UIViewController *HomeVc = [[CTMediator sharedInstance] HomeModule_ViewController];
+//    UIViewController *HomeVc = [[CTMediator sharedInstance] HomeModule_CategoryViewControllerWithCallback:^(NSString * _Nonnull str) {
+//        NSLog(@"%@",str);
+//    }];
     
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:HomeVc];
+    UIViewController *detail = [[CTMediator sharedInstance] HomeModule_pushToDetailController:^(NSString * _Nonnull str) {
+        
+    }];
+    
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:detail];
 
     UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:[MineViewController new]];
     
