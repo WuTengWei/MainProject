@@ -26,7 +26,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     UIViewController *HomeVc = [[CTMediator sharedInstance] HomeModule_ViewController];
-    UIViewController *MineVc = [[CTMediator sharedInstance] MineModule_Mine_ViewControler];
+    UIViewController *MineVc = [[CTMediator sharedInstance] MineModule_Mine_ViewControler:@{@"title":@"我的",@"image":[UIImage imageNamed:@"icon_card"]}];
     
     UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:HomeVc];
     UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:MineVc];
