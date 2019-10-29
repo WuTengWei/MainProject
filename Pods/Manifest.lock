@@ -3,10 +3,15 @@ PODS:
   - HomeModule (0.1.0)
   - HomeModule_Category (0.1.0):
     - CTMediator
+  - MineModule (0.1.0)
+  - MineModule_Category (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - HomeModule (from `../HomeModule`)
   - HomeModule_Category (from `../HomeModule_Category`)
+  - MineModule (from `../MineModule`)
+  - MineModule_Category (from `../MineModule_Category`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -17,12 +22,18 @@ EXTERNAL SOURCES:
     :path: "../HomeModule"
   HomeModule_Category:
     :path: "../HomeModule_Category"
+  MineModule:
+    :path: "../MineModule"
+  MineModule_Category:
+    :path: "../MineModule_Category"
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   HomeModule: 167736d2291016c1841b37333157db1aa2470506
   HomeModule_Category: cf7a0837a70b2aa74851380a9d405dd23744f226
+  MineModule: c37d5860f01cec2123c8a95cdeb510125a21a9c8
+  MineModule_Category: bb5bcceab47ecc2e0c7592553929dc8978578158
 
-PODFILE CHECKSUM: 58358f24f9a4122a23614f77b4e78dc75bc14abb
+PODFILE CHECKSUM: 438b178d9b30e373902ecdc1904b1600097c8bf8
 
 COCOAPODS: 1.7.4

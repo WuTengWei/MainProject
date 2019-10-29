@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		2C46DC172366D11200559798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C46DC162366D11200559798 /* Assets.xcassets */; };
 		2C46DC1A2366D11200559798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C46DC182366D11200559798 /* LaunchScreen.storyboard */; };
 		2C46DC1D2366D11200559798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C46DC1C2366D11200559798 /* main.m */; };
-		2C46DC2B2366D7AB00559798 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C46DC2A2366D7AB00559798 /* MineViewController.m */; };
 		6376A9A747C364E7621253A4 /* libPods-MainProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D19F61347EA01C0806C2C3 /* libPods-MainProject.a */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +25,6 @@
 		2C46DC192366D11200559798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C46DC1B2366D11200559798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C46DC1C2366D11200559798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C46DC292366D7AB00559798 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		2C46DC2A2366D7AB00559798 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		33D19F61347EA01C0806C2C3 /* libPods-MainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F49A64BA353FD62C555EFA /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject.release.xcconfig"; path = "Target Support Files/Pods-MainProject/Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
 		94976BE353396F6F53894E85 /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject.debug.xcconfig"; path = "Target Support Files/Pods-MainProject/Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,8 +67,6 @@
 				2C46DC0B2366D11100559798 /* AppDelegate.m */,
 				2C46DC102366D11100559798 /* ViewController.h */,
 				2C46DC112366D11100559798 /* ViewController.m */,
-				2C46DC292366D7AB00559798 /* MineViewController.h */,
-				2C46DC2A2366D7AB00559798 /* MineViewController.m */,
 				2C46DC162366D11200559798 /* Assets.xcassets */,
 				2C46DC182366D11200559798 /* LaunchScreen.storyboard */,
 				2C46DC1B2366D11200559798 /* Info.plist */,
@@ -212,7 +207,6 @@
 			files = (
 				2C46DC122366D11100559798 /* ViewController.m in Sources */,
 				2C46DC0C2366D11100559798 /* AppDelegate.m in Sources */,
-				2C46DC2B2366D7AB00559798 /* MineViewController.m in Sources */,
 				2C46DC1D2366D11200559798 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

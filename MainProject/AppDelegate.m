@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MineViewController.h"
 #import <CTMediator+HomeModule.h>
+#import <CTMediator+MineModule.h>
 
 @interface AppDelegate ()
 
@@ -24,17 +25,11 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     
-//    UIViewController *HomeVc = [[CTMediator sharedInstance] HomeModule_CategoryViewControllerWithCallback:^(NSString * _Nonnull str) {
-//        NSLog(@"%@",str);
-//    }];
+    UIViewController *HomeVc = [[CTMediator sharedInstance] HomeModule_ViewController];
+    UIViewController *MineVc = [[CTMediator sharedInstance] MineModule_Mine_ViewControler];
     
-    UIViewController *detail = [[CTMediator sharedInstance] HomeModule_pushToDetailController:^(NSString * _Nonnull str) {
-        
-    }];
-    
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:detail];
-
-    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:[MineViewController new]];
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:HomeVc];
+    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:MineVc];
     
     UITabBarController *tab = [[UITabBarController alloc] init];
 

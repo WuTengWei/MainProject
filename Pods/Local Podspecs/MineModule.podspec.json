@@ -1,0 +1,22 @@
+{
+  "name": "MineModule",
+  "version": "0.1.0",
+  "summary": "A short description of MineModule.",
+  "description": "MineModule",
+  "homepage": "https://github.com/WuTengWei/MineModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wutengwei": "wutengwei@rocedar.com"
+  },
+  "source": {
+    "git": "https://github.com/WuTengWei/MineModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MineModule/Classes/**/*"
+}
